@@ -1,0 +1,4 @@
+Przekątna:27"
+Rozdzielczość:3840 x 2160
+Matryca:LED, IPS
+Klasa energetyczna:F

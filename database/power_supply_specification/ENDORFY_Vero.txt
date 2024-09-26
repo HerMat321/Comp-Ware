@@ -1,0 +1,4 @@
+Moc:700 W
+Standard:ATX
+Certyfikat:80 PLUS Bronze
+Typ okablowania:Niemodularny

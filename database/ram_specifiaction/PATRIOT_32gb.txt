@@ -1,0 +1,4 @@
+Pojemność całkowita:32 GB
+Rodzaj pamięci:DDR5
+Taktowanie:6400 MHz
+Opóźnienie:CL 32

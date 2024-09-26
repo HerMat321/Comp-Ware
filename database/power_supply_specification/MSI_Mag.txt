@@ -1,0 +1,4 @@
+Moc:650 W
+Standard:ATX
+Sprawność:85% przy 230V oraz 20-100% obciążeniu.
+Certyfikat:80 PLUS Bronze

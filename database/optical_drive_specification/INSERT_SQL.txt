@@ -1,0 +1,13 @@
+INSERT INTO `napedy`(`id`, `nazwa`, `rodzaj`, `interfejs`, `zapis`, `image`)
+
+VALUES 
+
+(NULL,"GEMBIRD","Zewnętrzny","USB 3.2 Gen.1, USB-C","DVD±R - 8x, DVD-RW - 4x, CD-R - 24x","GEMBIRD.png"),
+
+(NULL,"HITACHI LG","Zewnętrzny","USB 2.0","8x, DVD±R DL - 6x, DVD-RAM - 5x, DVD+RW - 8x, DVD-RW - 8x, CD-R - 24x, CD-RW - 24x","HITACHI_Lg.png"),
+
+(NULL,"ASUS 08V1M","Zewnętrzny","USB-C","DVD±R - 8x, DVD+RW - 8x, DVD-RW - 6x, CD-R - 24x, CD-RW - 24x, M-DISC - 4x","ASUS_08v1m.png"),
+
+(NULL,"ASUS SBW","Zewnętrzny","USB 2.0","BD-R - 6x, BD-R DL - 6x, BD-R, BD-RE - 2x, BD-RE DL - 2x, BD-RE, DVD±R - 8x, DVD±R DL - 6x, DVD-RAM - 5x, DVD+RW - 8x, DVD-RW - 6x, CD-R - 24x, CD-RW - 16x","ASUS_Sbw.png"),
+
+(NULL,"VERBATIM SLIMLINE","Zewnętrzny","USB-C","BD-R - 6x, BD-R DL - 6x","VERBATIM_Slimline.png");

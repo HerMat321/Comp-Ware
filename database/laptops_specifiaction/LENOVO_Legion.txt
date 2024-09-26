@@ -1,0 +1,4 @@
+Procesor:AMD Ryzen™ 7 7840HS
+Pamięć:32 GB
+Grafika:NVIDIA GeForce RTX 4060
+Typ ekranu:Błyszczący, OLED

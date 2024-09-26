@@ -1,0 +1,4 @@
+Wersja produktu:Wersja cyfrowa
+Liczba stanowisk:10
+Okres licencji:12 miesięcy
+Platforma:Windows, macOS, iOS, Android

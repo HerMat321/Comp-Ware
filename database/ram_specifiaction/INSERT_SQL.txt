@@ -1,0 +1,17 @@
+INSERT INTO `pamiec_ram`(`id`, `nazwa`, `pojemnosc_calkowita`, `rodzaj_pamieci`, `taktowanie`, `opoznienie`, `image`)
+
+VALUES
+
+(NULL,"LEXAR 32GB","32 GB","DDR5","6000 MHz","CL 30","LEXAR_32gb.png"),
+
+(NULL,"KINGSTON FURY","32 GB","DDR4 SODIMM","3200MHz","CL 20","KINGSTON_Fury.png"),
+
+(NULL,"GSKILL 16GB","16 GB","DDR4","3200MHz","CL 16","GSKILL_16gb.png"),
+
+(NULL,"ADATA 32GB","32 GB","DDR5","6000MHz","CL 30","ADATA_32gb.png"),
+
+(NULL,"PATRIOT 32GB","32 GB","DDR5","6400MHz","CL 32","PATRIOT_32gb.png");
+    
+    
+    
+    

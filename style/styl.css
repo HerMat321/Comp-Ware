@@ -1,0 +1,861 @@
+.bitter
+{
+    font-family: "Bitter", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+body
+{
+    background-image: url("../img/background.png");
+    font-size: 30px;
+    margin: 0;
+}
+
+.logo
+{
+    width: 41%;
+    float: left;
+}
+
+.panel
+{
+    float: left;
+    width: 50%;
+    font-size: 18px;
+    margin-top: 2%;
+}
+
+.panel > img
+{
+    margin-left: 2%;
+}
+
+.insidePanel
+{
+    display: inline-block;
+    margin-left: 10%;
+    position: absolute;
+}
+
+.insidePanel  img
+{
+    margin-left: 20px;
+}
+
+.insidePanel > a > img
+{
+    transition: all .2s ease-in-out;
+}
+
+.insidePanel > a > img:hover
+{
+    transform: scale(1.5);
+}
+
+.panel > .insidePanel  div
+{
+    transition: all .2s ease-in-out;
+}
+
+.panel > .insidePanel  div:hover
+{
+    transform: scale(0.9);
+
+}
+
+.panel > .insidePanel  div  a:hover
+{
+    color: #045dab;
+}
+
+.menu
+{
+    width: 100%;
+    background-color: #007fee;
+    text-align: center;
+    border-bottom: 1px solid #000000;
+    border-top: 1px solid #000000;
+    padding: 10px;
+    color: white;
+    box-shadow: 10px 10px 10px gray;
+    border-radius: 10px;
+}
+
+.menu > ol
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: bold;
+    height: 35px;
+    line-height: 200%;
+    display: inline-block;
+}
+
+.menu > ol a
+{
+    text-decoration: none;
+    display: block;
+    color: white;
+
+}
+
+.menu > ol > li
+{
+   float: left;
+   width: 200px;
+   height: 40px;
+   border-right: 2px dotted #000000;
+   transition: all .2s ease-in-out ;
+}
+
+.menu > ol > li:hover
+{
+    background-color: #045dab;
+    color: gold;
+    transform: scale(0.9);
+    
+}
+
+.menu > ol > li:hover > a
+{
+    color: gold;
+}
+
+.menu > ol > li:first-child
+{
+    border-left: 2px dotted #000000;
+}
+
+.menu > ol > li > ul
+{
+    background-color: #007fee;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+
+.menu > ol > li:hover > ul
+{
+    display: block;
+}
+
+.menu > ol > li > ul > li:hover
+{
+    background-color: #045dab;
+}
+
+.menu > ol > li > ul > li:hover > a
+{
+    color: #00ee4b;
+}
+
+.menu > ol > li > ul > li
+{
+    border-bottom: 2px dashed #000000;
+}
+
+.newsletter 
+{
+    text-align: center;
+    margin-top: 2%;
+    line-height: 50px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    background-color: #007fee;
+    color: #ffffff;
+    box-shadow: 10px 10px 10px gray;
+    width: 100%;
+}
+
+.newsletter button
+{
+    height: 40px;
+    width: 10%;
+    font-size: 20px;
+}
+
+.bank
+{
+    text-align: center;
+    background-color: #007fee;
+    width: 100%;
+    height: 200px;
+    margin-top: 2%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px gray;
+    border: 2px solid #000000;
+    letter-spacing: 2px;
+    padding-top: 15px;
+    color: #ffffff;
+}
+
+.bank a 
+{
+    color: #000000;
+    word-spacing: 5px;
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    border-radius: 30px;
+    border: 2px solid #000;
+    transition: all .2s ease-in-out;
+}
+
+.bank img
+{
+    vertical-align: -15px;
+    transform: scale(1.2);
+}
+
+.bank a:hover
+{
+    
+    background-color: gold;
+}
+
+.pko
+{
+    display: inline-block;
+    font-weight: bold;
+}
+
+.bnp
+{
+    display: inline-block;
+    font-weight: bold;
+}
+
+.santander
+{
+    display: inline-block;
+    font-weight: bold;
+}
+
+.footer
+{
+    text-align: center;
+    background-color: #007fee;
+    margin-top: 2%;
+    color: #ffffff;
+    border-radius: 10px;
+    border: 2px solid #000;
+    box-shadow: 10px 10px 10px gray;
+}
+
+.footer > a > img
+{
+    width: 30px;
+    height: 30px;
+}
+
+.footer a
+{
+    color: white;
+}
+
+.footer a:hover
+{
+    color: gold;
+}
+
+.signup
+{
+    text-align: center;
+    border: 2px solid  #000;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px gray;
+    width: 60%;
+    line-height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    color: #fff;
+    background-color: #007fee;
+    font-size: 20px;
+}
+
+.signup  button
+{
+    font-weight: bold;
+    height: 60px;
+    width: 25%;
+    font-size: 20px;
+
+}
+
+.signup > header
+{
+    font-size: 45px;
+    padding: 10px;
+    margin-top: 2%;
+}
+
+.statut
+{
+    text-align: left;
+    border: 2px solid  #000;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px gray;
+    width: 60%;
+    line-height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    color: #fff;
+    background-color: #007fee;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.statut  ul
+{
+    list-style-image: url("../img/listpoint.png");
+}
+
+.statut > h2
+{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.statut > h3
+{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.statut > footer
+{
+    text-align: center;
+}
+
+.howbuy
+{
+    text-align: left;
+    border: 2px solid  #000;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px gray;
+    width: 60%;
+    line-height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    color: #fff;
+    background-color: #007fee;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.howbuy > ol > li ul
+{
+    list-style-image: url("../img/listpoint.png");
+}
+
+.howbuy > header > h2
+{
+    text-align: center;
+}
+
+.howbuy > footer
+{
+    text-align: center;
+}
+
+.delivery
+{
+    text-align: left;
+    border: 2px solid  #000;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px gray;
+    width: 60%;
+    line-height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    color: #fff;
+    background-color: #007fee;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.delivery > ol > li > ul
+{
+    list-style-image: url("../img/listpoint.png");
+}
+
+.delivery > ol > li > ul > li > ul  a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+.delivery > header > h2
+{
+    text-align: center;
+}
+
+.delivery > footer
+{
+    text-align: center;
+}
+
+.aboutUs
+{
+    text-align: left;
+    border: 2px solid  #000;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px gray;
+    width: 60%;
+    line-height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    color: #fff;
+    background-color: #007fee;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.aboutUs > h3 , .aboutUs > header > h2
+{
+    text-align: center;
+}
+
+.contact
+{
+    text-align: left;
+    border: 2px solid  #000;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px gray;
+    width: 60%;
+    line-height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    color: #fff;
+    background-color: #007fee;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.contact > header > h2
+{
+    text-align: center;
+}
+
+.contact a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+.contact  button
+{
+    width: 20%;
+    height: 50px;
+}
+
+.form 
+{
+    text-align: center;
+}
+
+.laptopsDescriptions
+{
+    text-align: left;
+    border: 2px solid  #000;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px gray;
+    width: 60%;
+    line-height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    color: #fff;
+    background-color: #007fee;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.laptopsDescriptions  h2,h3
+{
+    text-align: center;
+}
+
+.laptopsDescriptions ul > li
+{
+    list-style-image: url("../img/listpoint.png");
+}
+
+.laptopsDescriptions > footer
+{
+    text-align: center;
+}
+
+
+.personalComputerDescriptions
+{
+    text-align: left;
+    border: 2px solid  #000;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px gray;
+    width: 60%;
+    line-height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    color: #fff;
+    background-color: #007fee;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.personalComputerDescriptions > header > h2 , footer
+{
+    text-align: center;
+}
+
+.personalComputerDescriptions ul > li
+{
+    list-style-image: url("../img/listpoint.png");
+}
+
+.powerSupply
+{
+    text-align: left;
+    border: 2px solid  #000;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px gray;
+    width: 60%;
+    line-height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    color: #fff;
+    background-color: #007fee;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.powerSupply > header > h2, footer
+{
+    text-align: center;
+}
+
+.powerSupply ul > li
+{
+    list-style-image: url("../img/listpoint.png");
+}
+
+.monitors
+{
+    text-align: left;
+    border: 2px solid  #000;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px gray;
+    width: 60%;
+    line-height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    color: #fff;
+    background-color: #007fee;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.monitors > header > h2 , footer
+{
+    text-align: center;
+}
+
+.monitors ul > li
+{
+    list-style-image: url("../img/listpoint.png"); 
+}
+
+.ram
+{
+    text-align: left;
+    border: 2px solid  #000;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px gray;
+    width: 60%;
+    line-height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    color: #fff;
+    background-color: #007fee;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.ram > header > h2 , footer
+{
+    text-align: center;
+}
+
+.ram ul > li
+{
+    list-style-image: url("../img/listpoint.png"); 
+}
+
+.hardDrive
+{
+    text-align: left;
+    border: 2px solid  #000;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px gray;
+    width: 60%;
+    line-height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    color: #fff;
+    background-color: #007fee;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.hardDrive > header > h2 , footer
+{
+    text-align: center;
+}
+
+.hardDrive ul > li
+{
+    list-style-image: url("../img/listpoint.png"); 
+}
+
+.opticalDrive
+{
+    text-align: left;
+    border: 2px solid  #000;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px gray;
+    width: 60%;
+    line-height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    color: #fff;
+    background-color: #007fee;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.opticalDrive > header > h2 , footer
+{
+    text-align: center;
+}
+
+.opticalDrive ul > li
+{
+    list-style-image: url("../img/listpoint.png"); 
+}
+
+.usb
+{
+    text-align: left;
+    border: 2px solid  #000;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px gray;
+    width: 60%;
+    line-height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    color: #fff;
+    background-color: #007fee;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.usb > header > h2 , footer
+{
+    text-align: center;
+}
+
+.usb ul > li
+{
+    list-style-image: url("../img/listpoint.png"); 
+}
+
+.software
+{
+    text-align: left;
+    border: 2px solid  #000;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px gray;
+    width: 60%;
+    line-height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    color: #fff;
+    background-color: #007fee;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.software > header > h2 , footer
+{
+    text-align: center;
+}
+
+.software ul > li
+{
+    list-style-image: url("../img/listpoint.png"); 
+}
+
+.others
+{
+    text-align: left;
+    border: 2px solid  #000;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px gray;
+    width: 60%;
+    line-height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    color: #fff;
+    background-color: #007fee;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.others > header > h2 , footer
+{
+    text-align: center;
+}
+
+.others ul > li
+{
+    list-style-image: url("../img/listpoint.png"); 
+}
+
+.index
+{
+    text-align: left;
+    border: 2px solid  #000;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px gray;
+    width: 60%;
+    line-height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    color: #fff;
+    background-color: #007fee;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.index  h2
+{
+    text-align: center;
+}
+
+.index > header > h1
+{
+    text-align: center;
+    font-size: 40px;
+}
+
+.index ul > li 
+{
+    list-style-image: url("../img/listpoint.png"); 
+}
+
+.sticky
+{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 100;
+}
+
+.scrollUp
+{
+    width: 64px;
+    height: 64px;
+    text-decoration: none;
+    background: url("../img/upArrow.png") no-repeat 0px 0px;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    border-radius: 10px;
+}
+
+textarea
+{
+    border: 2px solid #000;
+}
+
+input
+{
+    width: 30%;
+    border-radius: 10px;
+    height: 30px;
+    text-align: center;
+}
+
+input[type="checkbox"]
+{
+    width: 5%;
+    height: 25px;
+}
+
+button
+{
+    background-color: lightskyblue;
+    border-radius: 10px;
+    height: 30px;
+    font-weight: bold;
+    margin: 5px;
+    transition: all .2s ease-in-out;
+}
+
+button:hover
+{
+    cursor: pointer;
+    transform: scale(0.9);
+}
+
+a 
+{ 
+    text-decoration: none;
+    color: #000000;
+}
+
+table
+{
+    color: gold;
+    width: 90%;
+    border: 2px solid #000000;
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+td,th
+{
+    border: 2px solid #000;
+}
+
+img[src="../img/logo.png"]
+{
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px black;
+}

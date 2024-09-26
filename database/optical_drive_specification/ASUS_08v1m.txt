@@ -1,0 +1,4 @@
+Rodzaj napędu:Zewnętrzny
+Interfejs:USB-C
+Zapis:DVD±R - 8x, DVD+RW - 8x, DVD-RW - 6x, CD-R - 24x, CD-RW - 24x, M-DISC - 4x
+Odczyt:DVD-ROM - 8x, CD-ROM - 24x, M-DISC - 8x, DVD±R - 8x, DVD±R DL - 8x, DVD+RW - 8x, DVD-RW - 8x, CD-R - 24x

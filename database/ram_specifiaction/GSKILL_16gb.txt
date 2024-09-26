@@ -1,0 +1,4 @@
+Pojemność całkowita:16 GB
+Rodzaj pamięci:DDR4
+Taktowanie:3200 MHz
+Opóźnienie:CL 16

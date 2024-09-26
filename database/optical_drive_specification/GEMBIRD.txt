@@ -1,0 +1,4 @@
+Rodzaj napędu:Zewnętrzny
+Interfejs:USB 3.2 Gen.1, USB-C
+Zapis:DVD±R - 8x, DVD-RW - 4x, CD-R - 24x
+Odczyt:DVD-ROM - 8x, CD-ROM - 24x

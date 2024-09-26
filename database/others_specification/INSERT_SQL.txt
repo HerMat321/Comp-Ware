@@ -1,0 +1,18 @@
+INSERT INTO `inne`(`id`, `nazwa`, `opis`, `image`) 
+VALUES 
+(NULL,"KABEL USB 2m","Typ: USB Typu-C - USB Typu-C,Standard: USB 3.2 Gen. 1","KABEL_Usb2m.png"),
+
+(NULL,"SLUCHAWKI LOGITECH","Łączność:Przewodowe
+Budowa słuchawek:Nauszne, Zamknięte
+Mikrofon:Posiada","SLUCHAWKI_Logitech.png"),
+
+(NULL,"KLAWIATURA LOGITECH","Przełączniki:Membranowe
+Łączność:Bezprzewodowa","KLAWIATURA_Logitech.png"),
+
+(NULL,"LISTWA HSK","Długość przewodu:3 m 
+ Typ:Antyprzepięciowa
+ Liczba gniazd:5","LISTWA_Hsk.png"),
+ 
+ (NULL,"MYSZKA RAZER","Rozdzielczość:30000 dpi
+ Typ myszy:Dla graczy
+ Sensor:Optyczny","MYSZKA_Razer.png");

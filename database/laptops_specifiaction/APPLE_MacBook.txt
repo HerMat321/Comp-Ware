@@ -1,0 +1,4 @@
+Procesor:Apple M1
+Pamięć:8 GB
+Grafika:Apple M1 [7 rdzeni]
+Typ ekranu:Błyszczący, LED, IPS, Retina

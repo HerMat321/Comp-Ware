@@ -1,0 +1,4 @@
+Przekątna:27"
+Rozdzielczość:2560 x 1440
+Matryca:LED, IPS
+Typ ekranu:Płaski

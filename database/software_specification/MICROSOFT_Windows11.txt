@@ -1,0 +1,4 @@
+Architektura:64-bitowa
+Licencja:BOX
+Liczba stanowisk:1
+Wersja:Polska

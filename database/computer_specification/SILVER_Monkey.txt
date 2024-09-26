@@ -1,0 +1,4 @@
+System:Brak systemu
+Procesor:Intel Core i5-12400F
+Grafika:NVIDIA GeForce RTX 3050
+Pamięć RAM:16 GB

@@ -1,0 +1,4 @@
+Typ:USB Typu-C - USB Typu-C
+Zastosowanie:Transmisja danych, Ładowanie
+Standard:USB 3.2 Gen. 1
+Przepustowość:do 5 Gbit/s

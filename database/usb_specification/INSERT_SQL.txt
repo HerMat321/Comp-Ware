@@ -1,0 +1,10 @@
+INSERT INTO `pamiec_przenosna`(`id`, `nazwa`, `pojemnosc`, `interfejs`, `predkosc_odczytu`, `predkosc_zapisu`, `image`) VALUES 
+(NULL,"SEAGATE EXPANSION","1 TB","USB 3.2 Gen. 1",NULL,NULL,"SEAGATE_Expansion.png"),
+
+(NULL,"SANDISK EXTREME","1 TB","USB 3.2 Gen. 2","1050 MB/s","1000 MB/s","SANDISK_Extreme.png"),
+
+(NULL,"SAMSUNG PORTABLE","2 TB","USB 3.2 Gen. 2","1050 MB/s","1000 MB/s","SAMSUNG_Portable.png"),
+
+(NULL,"ADATA SE770G","2 TB","USB 3.2 Gen. 1",NULL,NULL,"ADATA_Se770g.png"),
+
+(NULL,"LEXAR SL660","512 GB","USB 3.2 Gen. 2x2","2000 MB/s","1900 MB/s","LEXAR_Sl660.png");

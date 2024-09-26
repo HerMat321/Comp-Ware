@@ -1,0 +1,4 @@
+Procesor:AMD Ryzen™ 5 7535HS
+Pamięć:16 GB
+Grafika:NVIDIA GeForce RTX 2050 + AMD Radeon™ Graphics
+Typ ekranu:Matowy, LED, IPS

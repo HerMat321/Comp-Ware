@@ -1,0 +1,4 @@
+Rodzaj napędu:Zewnętrzny
+Interfejs:USB-C
+Zapis:BD-R - 6x, BD-R DL - 6x
+Odczyt:BD-R - 4x, BD-R

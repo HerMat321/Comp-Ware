@@ -1,0 +1,118 @@
+{
+  "name": "",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "ec488dfd1f548948c09671ca5a60ec92",
+      "css": "phone-squared",
+      "code": 61592,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "e160a7e42e4e818463fd5a8607b9f608",
+      "css": "down-circle",
+      "code": 59393,
+      "src": "websymbols"
+    },
+    {
+      "uid": "949f56916cd9c4f45ef76cc604f02e2e",
+      "css": "laptop",
+      "code": 59392,
+      "src": "elusive"
+    },
+    {
+      "uid": "abe051e31ad705400cf6226b24b6e828",
+      "css": "desktop",
+      "code": 59394,
+      "src": "elusive"
+    },
+    {
+      "uid": "pgdm1vsngqxmheo5xkjpbm5o8k81pawd",
+      "css": "flash",
+      "code": 59396,
+      "src": "typicons"
+    },
+    {
+      "uid": "795efd07cd5205b589c883916a76cff0",
+      "css": "hdd",
+      "code": 61600,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "52cde78d270e411ccf22c9ec02910d69",
+      "css": "cd",
+      "code": 59395,
+      "src": "linecons"
+    },
+    {
+      "uid": "21e7025c85a7eeae71fd3539855afe2b",
+      "css": "usb",
+      "code": 62087,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "26613a2e6bc41593c54bead46f8c8ee3",
+      "css": "file-code",
+      "code": 61897,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "47a35af762c8e06f3d152750134c8750",
+      "css": "linux",
+      "code": 61820,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "9cc990bbcac7aa8504078b3f49df79b1",
+      "css": "commenting-o",
+      "code": 62075,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "8b80d36d4ef43889db10bc1f0dc9a862",
+      "css": "user",
+      "code": 59397,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "3333e460aa2cf5a69989c42c334a4194",
+      "css": "post",
+      "code": 59436,
+      "src": "maki"
+    },
+    {
+      "uid": "15ba51cbb4d05e6fb88f03a31a7c711c",
+      "css": "info-circled-alt",
+      "code": 61574,
+      "src": "mfglabs"
+    },
+    {
+      "uid": "83e7b366e9b39bc4006b821f7c5efa4d",
+      "css": "folder",
+      "code": 59399,
+      "src": "typicons"
+    },
+    {
+      "uid": "98687378abd1faf8f6af97c254eb6cd6",
+      "css": "cog-alt",
+      "code": 59398,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "501f33ed61da407feb057a7699ef93f7",
+      "css": "clock",
+      "code": 59400,
+      "src": "websymbols"
+    },
+    {
+      "uid": "a41cabcd11152063a37f2407048c5494",
+      "css": "wpforms",
+      "code": 62104,
+      "src": "fontawesome"
+    }
+  ]
+}

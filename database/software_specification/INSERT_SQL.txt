@@ -1,0 +1,11 @@
+INSERT INTO `oprogramowanie`(`id`, `nazwa`, `platforma`, `wersja_produktu`, `okres_licencji`, `image`)
+VALUES 
+(NULL,"MICROSOFT WINDOWS 11","Windows","Home","Box","MICROSOFT_Windows11.png"),
+
+(NULL,"ESET NOD32","Windows","Fizyczna","36 miesięcy","ESET_Nod32.png"),
+
+(NULL,"MICROSOFT 365","macOS, iOS, Android, Windows","Fizyczna","12 miesięcy","MICROSOFT_365.png"),
+
+(NULL,"NORTON","Windows, macOS, iOS, Android","Cyfrowa","12 miesięcy","NORTON.png"),
+
+(NULL,"BITDEFENDER","Windows","Cyfrowa","24 miesiące","BITDEFENDER.png");

@@ -1,0 +1,13 @@
+INSERT INTO `dyski_twarde`(`id`, `nazwa`, `pojemnosc`, `interfejs`, `predkosc_obr`, `predkosc_odczytu`, `predkosc_zapisu`, `image`)
+
+VALUES 
+
+(NULL,"SILICON POWER","1 TB","PCIe NVMe 4.0 x4",NULL,"3600 MB/s","2800 MB/s","SILICON_Power.png"),
+
+(NULL,"SEAGATE BARRACUDA","8 TB","SATA III","5400 obr./min",NULL,NULL,"SEAGATE_Barracuda.png"),
+
+(NULL,"SYNOLOGY HAT3300"," 4 TB","SATA III","5400 obr./min",NULL,NULL,"SYNOLOGY_Hat3300.png"),
+
+(NULL,"CORSAIR 500GB","500 GB","PCIe NVMe 4.0 x4",NULL,"6600 MB/s","3600 MB/s","CORSAIR_500gb.png"),
+
+(NULL,"ADATA 1TB","1 TB","PCIe NVMe 4.0 x4",NULL,"5000 MB/s","4500 MB/s","ADATA_1tb.png");

@@ -1,0 +1,4 @@
+Pojemność całkowita:32 GB
+Rodzaj pamięci:DDR4 SODIMM
+Taktowanie:3200 MHz
+Opóźnienie:CL 20

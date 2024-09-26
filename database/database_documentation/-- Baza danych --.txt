@@ -1,0 +1,159 @@
+-- Baza danych --
+CREATE DATABASE IF NOT EXISTS compware
+DEFAULT CHARACTER SET utf8mb4
+DEFAULT COLLATE utf8mb4_unicode_ci;
+
+-- Wybranie Bazy danych --
+USE compware;
+
+-- Tabela Uzytkownicy --
+CREATE TABLE IF NOT EXISTS Uzytkownicy (
+    id INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    nazwa_uzytkownika VARCHAR(255) NOT NULL,
+    haslo VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    miasto VARCHAR(255) NOT NULL,
+    ulica VARCHAR(255) NOT NULL,
+    nr_domu VARCHAR(255) NOT NULL
+);
+
+-- Tabela Newsletter --
+CREATE TABLE IF NOT EXISTS Newsletter (
+    id INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    Uzytkownicy_id INT UNSIGNED,
+    FOREIGN KEY (Uzytkownicy_id) REFERENCES Uzytkownicy(id)
+);
+
+-- Tabela Laptopy -- 
+CREATE TABLE IF NOT EXISTS Laptopy (
+    id INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    nazwa VARCHAR(255) NOT NULL,
+    procesor VARCHAR(255),
+    pamiec VARCHAR(255),
+    grafika VARCHAR(255),
+    image VARCHAR(255)
+);
+
+-- Tabela Komputery -- 
+CREATE TABLE IF NOT EXISTS Komputery (
+    id INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    nazwa VARCHAR(255) NOT NULL,
+    procesor VARCHAR(255),
+    pamiec VARCHAR(255),
+    grafika VARCHAR(255),
+    image VARCHAR(255)
+);
+
+-- Tabela Zasilacze -- 
+CREATE TABLE IF NOT EXISTS Zasilacze (
+    id INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    nazwa VARCHAR(255) NOT NULL,
+    moc VARCHAR(255),
+    standard VARCHAR(255),
+    sprawnosc VARCHAR(255),
+    certyfikat VARCHAR(255)
+);
+
+-- Tabela Monitory --
+CREATE TABLE IF NOT EXISTS Monitory (
+    id INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    nazwa VARCHAR(255) NOT NULL,
+    przekatna VARCHAR(255),
+    matryca VARCHAR(255)
+);
+
+-- Tabela Pamiec_Ram --
+CREATE TABLE IF NOT EXISTS Pamiec_Ram (
+    id INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    nazwa VARCHAR(255) NOT NULL,
+    pojemnosc_calkowita VARCHAR(255),
+    rodzaj_pamieci VARCHAR(255),
+    taktowanie VARCHAR(255),
+    opoznienie VARCHAR(255)
+);
+
+-- Tabela Dyski_Twarde -- 
+CREATE TABLE IF NOT EXISTS Dyski_Twarde (
+    id INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    nazwa VARCHAR(255) NOT NULL,
+    pojemnosc VARCHAR(255),
+    interfejs VARCHAR(255),
+    predkosc_obr VARCHAR(255),
+    predkosc_odczytu VARCHAR(255),
+    predkosc_zapisu VARCHAR(255)
+);
+
+-- Tabela Napedy --
+CREATE TABLE IF NOT EXISTS Napedy (
+    id INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    nazwa VARCHAR(255) NOT NULL,
+    rodzaj VARCHAR(255),
+    interfejs VARCHAR(255),
+    zapis VARCHAR(255)
+);
+
+-- Tabela Pamiec_Przenosna --
+CREATE TABLE IF NOT EXISTS Pamiec_Przenosna (
+    id INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    nazwa VARCHAR(255) NOT NULL,
+    pojemnosc VARCHAR(255),
+    interfejs VARCHAR(255),
+    predkosc_odczytu VARCHAR(255),
+    predkosc_zapisu VARCHAR(255)
+);
+
+-- Tabela Oprogramowanie --
+CREATE TABLE IF NOT EXISTS Oprogramowanie (
+    id INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    nazwa VARCHAR(255) NOT NULL,
+    platforma VARCHAR(255),
+    wersja_produktu VARCHAR(255),
+    okres_licencji VARCHAR(255)
+);
+
+-- Tabela Inne --
+CREATE TABLE IF NOT EXISTS Inne (
+    id INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    nazwa VARCHAR(255) NOT NULL,
+    opis VARCHAR(255)
+);
+
+-- Tabela Zamowienia -- 
+CREATE TABLE IF NOT EXISTS Zamowienia (
+    id INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    data_zamowienia DATE NOT NULL,
+    czy_wyslano BOOLEAN,
+    
+    Uzytkownicy_id INT UNSIGNED,
+    FOREIGN KEY (Uzytkownicy_id) REFERENCES Uzytkownicy(id),
+    
+    Laptopy_id INT UNSIGNED,
+    FOREIGN KEY (Laptopy_id) REFERENCES Laptopy(id),
+    
+    Komputery_id INT UNSIGNED,
+    FOREIGN KEY (Komputery_id) REFERENCES Komputery(id),
+    
+    Zasilacze_id INT UNSIGNED,
+    FOREIGN KEY (Zasilacze_id) REFERENCES Zasilacze(id),
+    
+    Monitory_id INT UNSIGNED,
+    FOREIGN KEY (Monitory_id) REFERENCES Monitory(id),
+    
+    Pamiec_Ram_id INT UNSIGNED,
+    FOREIGN KEY (Pamiec_Ram_id) REFERENCES Pamiec_Ram(id),
+    
+    Dyski_Twarde_id INT UNSIGNED,
+    FOREIGN KEY (Dyski_Twarde_id) REFERENCES Dyski_Twarde(id),
+    
+    Napedy_id INT UNSIGNED,
+    FOREIGN KEY (Napedy_id) REFERENCES Napedy(id),
+    
+    Pamiec_Przenosna_id INT UNSIGNED,
+    FOREIGN KEY (Pamiec_Przenosna_id) REFERENCES Pamiec_Przenosna(id),
+    
+    Oprogramowanie_id INT UNSIGNED,
+    FOREIGN KEY (Oprogramowanie_id) REFERENCES Oprogramowanie(id),
+    
+    Inne_id INT UNSIGNED,
+    FOREIGN KEY (Inne_id) REFERENCES Inne(id)
+);
