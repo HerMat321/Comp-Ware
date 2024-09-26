@@ -1,0 +1,4 @@
+Procesor:AMD Ryzen™ 7 7735HS
+Pamięć:16 GB
+Grafika:NVIDIA GeForce RTX 4060
+Typ ekranu:Matowy, LED, IPS

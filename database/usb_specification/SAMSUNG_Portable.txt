@@ -1,0 +1,4 @@
+Pojemność:2000 GB
+Interfejs:USB 3.2 Gen. 2
+Prędkość odczytu:1050 MB/s
+Prędkość zapisu:1000 MB/s

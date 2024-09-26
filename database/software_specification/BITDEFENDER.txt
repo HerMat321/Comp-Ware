@@ -1,0 +1,4 @@
+Wersja produktu:Wersja cyfrowa
+Liczba stanowisk:3
+Okres licencji:24 miesięce
+Platforma:Windows

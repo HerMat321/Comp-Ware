@@ -1,0 +1,4 @@
+Moc:750 W
+Standard:ATX
+Certyfikat:80 PLUS Gold
+Typ okablowania:Modularny

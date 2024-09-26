@@ -1,0 +1,4 @@
+Pojemność:500 GB
+Interfejs:PCIe NVMe 4.0 x4
+Prędkość odczytu:6600 MB/s
+Prędkość zapisu:3600 MB/s

@@ -1,0 +1,4 @@
+System:Microsoft Windows 11 Home
+Procesor:Intel Core i7-14700KF
+Grafika:NVIDIA GeForce RTX 4060 Ti
+Pamięć RAM:32 GB

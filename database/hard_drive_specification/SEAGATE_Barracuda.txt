@@ -1,0 +1,4 @@
+Pojemność:8000 GB
+Interfejs:SATA III
+Format:3.5"
+Prędkość obr.:5400 obr./min

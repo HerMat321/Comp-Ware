@@ -1,0 +1,4 @@
+System:Microsoft Windows 11 Pro
+Procesor:Intel Core i7-13700
+Grafika:Intel UHD Graphics 770
+Pamięć RAM:32 GB

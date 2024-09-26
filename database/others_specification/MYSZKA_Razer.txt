@@ -1,0 +1,4 @@
+Typ myszy:Dla graczy
+Sensor:Optyczny
+Liczba przycisków:6
+Rozdzielczość:30000 dpi

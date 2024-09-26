@@ -1,0 +1,4 @@
+Przekątna:23,8"
+Rozdzielczość:1920 x 1080
+Matryca:LED, IPS
+Klasa energetyczna:C

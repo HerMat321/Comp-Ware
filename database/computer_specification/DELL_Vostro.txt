@@ -1,0 +1,4 @@
+System:Microsoft Windows 11 Pro
+Procesor:Intel Core i5-12400
+Grafika:Intel UHD Graphics 730
+Pamięć RAM:16 GB

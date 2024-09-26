@@ -1,0 +1,4 @@
+Moc:500 W
+Standard:ATX
+Sprawność:88% przy 230V oraz 20-100% obciążeniu.
+Certyfikat:80 PLUS Bronze

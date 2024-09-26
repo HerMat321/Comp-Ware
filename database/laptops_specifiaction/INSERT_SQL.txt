@@ -1,0 +1,7 @@
+INSERT INTO `laptopy`(`id`, `nazwa`, `procesor`, `pamiec`, `grafika`, `image`)
+VALUES
+(NULL,"ACER Nitro","AMD Ryzen™ 5 7535HS","16 GB","NVIDIA GeForce RTX 2050 + AMD Radeon™ Graphics","ACER_Nitro.png"),
+(NULL,"APPLE MacBook","Apple M1","8 GB","M1 7 rdzeni","APPLE_MacBook.png"),
+(NULL,"DELL Inspiron","AMD Ryzen™ 5 5500U","16 GB","AMD Radeon™ Graphics","DELL_Inspiron.png"),
+(NULL,"LENOVO Legion","AMD Ryzen™ 7 7840HS","32 GB","NVIDIA GeForce RTX 4060","LENOVO_Legion.png"),
+(NULL,"MSI Bravo","AMD Ryzen™ 7 7735HS","16 GB","NVIDIA GeForce RTX 4060","MSI_Bravo.png");

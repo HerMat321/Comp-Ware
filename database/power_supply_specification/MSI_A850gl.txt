@@ -1,0 +1,4 @@
+Moc:850 W
+Standard:ATX 3.0
+Sprawność:90% przy 230V oraz 20-100% obciążeniu.
+Certyfikat:80 PLUS Gold

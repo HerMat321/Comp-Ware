@@ -1,0 +1,31 @@
+.products
+{
+    font-weight: bold;
+    font-size: 24px ;
+    text-align: center;
+    padding: 10px;
+}
+
+.products button
+{
+    height: 100px;
+    width: 250px;
+    font-size: 26px;
+}
+
+.products img
+{
+    border-radius:20px;
+    box-shadow: 10px 10px 10px black;
+}
+
+.products table,th,tr,td 
+{
+    border: 4px solid black;
+    font-size: 20px;
+    background-color: lightskyblue;
+    color: #000;
+    font-family: FreeMono, monospace;
+}
+
+

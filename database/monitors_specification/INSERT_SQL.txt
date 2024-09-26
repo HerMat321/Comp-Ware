@@ -1,0 +1,7 @@
+INSERT INTO `monitory`(`id`, `nazwa`, `przekatna`, `matryca`, `image`) 
+VALUES 
+(NULL,"ACER KA242YEBI","23,8`","LED, IPS","ACER_Ka242yebi.png"),
+(NULL,"MSI Pro","24,5`","LED, IPS","MSI_Pro.png"),
+(NULL,"DELL P2422H","LED, IPS","23,8`","DELL_P2422h.png"),
+(NULL,"GIGABYTE GS27Q","27`","LED, IPS","GIGABYTE_Gs27q.png"),
+(NULL,"DELL S2722QC","27`","LED, IPS","DELL_S2722qc.png");

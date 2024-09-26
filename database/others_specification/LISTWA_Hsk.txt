@@ -1,0 +1,4 @@
+Typ:Antyprzepięciowa
+Liczba gniazd:5
+Gniazda:Z uziemieniem - 5 szt.
+Długość przewodu:3 m

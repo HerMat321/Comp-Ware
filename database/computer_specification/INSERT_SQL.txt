@@ -1,0 +1,7 @@
+INSERT INTO `komputery`(`id`, `nazwa`, `procesor`, `pamiec`, `grafika`, `image`) 
+VALUES 
+(NULL,"HP Pro","Intel Core i7-13700","32 GB","Intel UHD Graphics 770","HP_Pro.png"),
+(NULL,"ACER_Nitro","Intel Core i5-13400F","32 GB","NVIDIA GeForce RTX 4060","ACER_Nitro.png"),
+(NULL,"DELL_Vostro","Intel Core i5-12400","16 GB","Intel UHD Graphics 730","DELL_Vostro.png"),
+(NULL,"LENOVO_Legion","Intel Core i7-14700KF","32 GB","NVIDIA GeForce RTX 4060 Ti","LENOVO_Legion.png"),
+(NULL,"SILVER_Monkey","Intel Core i5-12400F","16 GB","NVIDIA GeForce RTX 3050","SILVER_Monkey.png");

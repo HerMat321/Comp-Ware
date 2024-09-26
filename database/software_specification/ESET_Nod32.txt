@@ -1,0 +1,4 @@
+Wersja produktu:Wersja fizyczna
+Liczba stanowisk:1
+Okres licencji:36 miesięcy
+Platforma:Windows

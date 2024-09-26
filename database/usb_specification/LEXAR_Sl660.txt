@@ -1,0 +1,4 @@
+Pojemność:512 GB
+Interfejs:USB 3.2 Gen. 2 x 2
+Prędkość odczytu:2000 MB/s
+Prędkość zapisu:1900 MB/s

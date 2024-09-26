@@ -1,0 +1,4 @@
+Platforma:macOS, iOS, Android, Windows
+Wersja produktu:Wersja fizyczna
+Okres licencji:12 miesięcy
+Liczba stanowisk:5
