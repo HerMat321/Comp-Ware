@@ -113,6 +113,12 @@
       "css": "wpforms",
       "code": 62104,
       "src": "fontawesome"
+    },
+    {
+      "uid": "f5053e43ef8be31afb905801449ae26d",
+      "css": "truck",
+      "code": 59401,
+      "src": "linecons"
     }
   ]
 }

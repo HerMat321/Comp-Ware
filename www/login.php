@@ -30,19 +30,15 @@
                 <section>
                     <div class="signup">
                         <header>Panel Logowania</header>
-                        <br>
-                        <form method="POST">
+                        <h2><i class="icon-user"></i></h2>
+                        <form method="POST" action="login_data.php">
                             <label for="email">Podaj adres e-mail:</label>
                             <br>
-                            <input type="email" id="email" placeholder="Podaj swój e-mail" required>
+                            <input type="email" id="email" name="email"  placeholder="Podaj swój e-mail" required>
                             <br>
                             <label for="password">Hasło:</label>
                             <br>
-                            <input type="password" id="password" placeholder="Podaj hasło" required>
-                            <br>
-                            <label for="password2">Powtórz hasło:</label>
-                            <br>
-                            <input type="password2" id="password2" placeholder="Powtórz hasło" required>
+                            <input type="password" id="password" name="password" placeholder="Podaj hasło" required>
                             <br>
                             <br>
                             <button type="submit">Zaloguj się</button><button type="reset">Resetuj Formularz</button>
