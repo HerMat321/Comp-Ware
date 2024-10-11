@@ -43,8 +43,6 @@
                             <br>
                             <button type="submit">Zaloguj się</button><button type="reset">Resetuj Formularz</button>
                         </form>
-                        <!--Skrypt walidujący dane z formularza-->
-                        <!--Skrypt logujący uzytkownika na konto -->
                     </div>
                 </section>
             </div>

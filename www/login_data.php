@@ -1,5 +1,9 @@
 <?php
-    
+    //Skrypt walidujący dane z formularza
+    //Skrypt logujący uzytkownika na konto
+
+    session_start();
+
     require_once "database.php";
     mysqli_report(MYSQLI_REPORT_STRICT);
 
@@ -7,20 +11,40 @@
     {
         if($connection->connect_errno != 0)
         {
-            throw new Exception(mysqli_connect_errno());
+            throw new Exception($connection->connect_errno);
         }
         else
         {
             $email = $_POST['email'];
             $password = $_POST['password'];
-            
-            $query = "SELECT * FROM uzytkownicy WHERE email='$email' AND haslo='$password'";
+        
+            $query = "SELECT * FROM uzytkownicy WHERE email='$email'";
 
-            $result = $connection->query($query);
-
-            if($result)
+            if($result = $connection->query($query))
             {
                 $how_users = $result->num_rows;
+
+                if($how_users > 0)
+                {
+                    $row = $result->fetch_object();
+                    if(password_verify($password,$row->haslo))
+                    {
+                        $user = $row->email;
+                        $result->close();
+                        $_SESSION['username'] = $row->nazwa_uzytkownika;
+                        $_SESSION['email'] = $row->email;
+
+                        header("Location: my_account.php");
+                    }
+                    else
+                    {
+                        echo "<span style=\"color:red\">Nieprawidłowy login lub hasło!</span>";
+                    }
+                }
+                else
+                {
+                    echo "<span style=\"color:red\">Nieprawidłowy login lub hasło!</span>";
+                }
             }
             else
             {
