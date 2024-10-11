@@ -57,7 +57,7 @@ if (isset($_POST['email']))
 
     //Sprawdzenie reCaptchy
     $secret_key = "6LeGwk8qAAAAADP2pqzHK0U2uLzk4JYPM5_S_Bbm";
-    $verify = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret='.$secret_key.'&response'.$_POST['g-recaptcha-response']);
+    $verify = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret='.$secret_key.'&response='.$_POST['g-recaptcha-response']);
     
     $answer = json_decode($verify);
 

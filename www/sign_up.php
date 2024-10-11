@@ -1,4 +1,5 @@
 <?php
+//Skrypt zapisujacy uzytkownika do bazy danych
 //Skrypt walidujący dane z formularza
     session_start();
     include '../script/signupScript.php';
@@ -139,7 +140,6 @@
                             <br>
                             <button type="submit">Zarejestruj się!</button><button type="reset">Resetuj Formularz</button>
                         </form>
-                        <!--Skrypt zapisujacy uzytkownika do bazy danych-->
                     </div>
                 </section>
             </div>
