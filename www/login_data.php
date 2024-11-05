@@ -31,6 +31,9 @@
                     {
                         $user = $row->email;
                         $result->close();
+
+                        $_SESSION['user_login'] = true;
+                        $_SESSION['id'] = $row->id;
                         $_SESSION['username'] = $row->nazwa_uzytkownika;
                         $_SESSION['email'] = $row->email;
 
@@ -38,12 +41,14 @@
                     }
                     else
                     {
-                        echo "<span style=\"color:red\">Nieprawidłowy login lub hasło!</span>";
+                        $_SESSION['login_error'] = "<span style=\"color:red\">Nieprawidłowy login lub hasło!</span>";
+                        header("Location: login.php");
                     }
                 }
                 else
                 {
-                    echo "<span style=\"color:red\">Nieprawidłowy login lub hasło!</span>";
+                    $_SESSION['login_error'] = "<span style=\"color:red\">Nieprawidłowy login lub hasło!";
+                    header("Location: login.php");
                 }
             }
             else

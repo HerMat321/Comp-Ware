@@ -1,7 +1,7 @@
 <nav>
         <div class="menu">
             <ol>
-                <li><a href="#"><i class="icon-user"></i>Moje konto</a></li>
+                <li><a href="my_account.php"><i class="icon-user"></i>Moje konto</a></li>
                 <li><a href="about_us.php"><i class="icon-commenting-o"></i>O nas</a></li>
                 <li><a href="contact.php"><i class="icon-post"></i>Kontakt</a></li>
                 <li><a href="#"><i class="icon-folder"></i>Kategorie<i class="icon-down-circle"></i></a>
