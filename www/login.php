@@ -1,3 +1,9 @@
+<?php
+    session_start();
+
+    // Przekierowanie jezeli uzytkownik jest zalogowany
+    include '../script/if_userLogin.php';
+?>
 <!DOCTYPE php>
 <php lang="pl">
 
@@ -31,6 +37,12 @@
                     <div class="signup">
                         <header>Panel Logowania</header>
                         <h2><i class="icon-user"></i></h2>
+
+                        <!--Obsługa błędu logowania-->
+                        <?php
+                           include "../script/login_error.php";
+                        ?>
+
                         <form method="POST" action="login_data.php">
                             <label for="email">Podaj adres e-mail:</label>
                             <br>

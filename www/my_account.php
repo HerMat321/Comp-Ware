@@ -1,5 +1,6 @@
 <?php
     session_start();
+    include '../script/if_!userLogin.php';
 ?>
 
 <!DOCTYPE php>
@@ -32,18 +33,58 @@
             <div class="main">
                 <div class="signup">
                     <header><h3>Moje Konto</h3></header>
+                    
+                    <!--Dane o uzytkowniku-->
                     <?php
-                        echo "<h3>Witaj {$_SESSION['username']}!</h3>
-                                <p>Oto twój panel użytkownika. Z tego miejsca możesz zarządzać swoim kontem!</p>
-                                <p>Twój adres email: {$_SESSION['email']}";
+                        include '../script/user_data.php';
                     ?>
                     <br>
-                    <br>
-                    <button name="logout">Wyloguj</button>
-                    <button name="deleteAccount">Usuń konto</button>
-                    <button name="changePassword">Zmień hasło</button>
-                    <button name="changeEmail">Zmień email</button>
-                    <button name="toBasket">Przejdź do koszyka</button>
+                    <form method="POST">
+                        <button name="logout">Wyloguj</button>
+                    </form>
+
+                    <form method="POST">
+                        <button name="deleteAccount">Usuń konto</button>
+                    </form>
+                        
+                        <button name="changePassword">Zmień hasło</button>
+                        <button name="changeEmail">Zmień email</button>
+                        <button name="toBasket">Przejdź do koszyka</button>
+                    
+
+                    <!--Obsługa przycisków-->
+                    <?php
+                        //Wylogowanie
+                        if(isset($_POST['logout']))
+                        { 
+                            header("Location: index.php");
+                            unset($_SESSION['user_login']);
+                            exit(); 
+                        }
+
+                        //Usuniecie konta
+                        if(isset($_POST['deleteAccount']))
+                        {
+                           require_once 'database.php';
+                           $query = "DELETE FROM uzytkownicy WHERE id='$_SESSION[id]'";
+                           $connection->query($query);
+
+                           function alert($message)
+                           {
+                            echo "<script>alert('$message');</script>";
+                           }
+
+                           if($connection->query($query))
+                           {
+                             unset($_SESSION['user_login']);
+                             alert("Usunałeś swoje konto!");
+                             header("Location: index.php");
+                           }
+                        }
+
+                        //Zmiana hasla
+
+                    ?>
                     <footer><img src="../img/logo.png" alt="logo"></footer>
                 </div>
             </div>
