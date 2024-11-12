@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Wrz 30, 2024 at 08:49 PM
+-- Generation Time: Lis 12, 2024 at 08:34 PM
 -- Wersja serwera: 10.4.28-MariaDB
 -- Wersja PHP: 8.2.4
 
@@ -299,7 +299,9 @@ CREATE TABLE `uzytkownicy` (
 INSERT INTO `uzytkownicy` (`id`, `nazwa_uzytkownika`, `haslo`, `email`, `miasto`, `ulica`, `nr_domu`) VALUES
 (1, 'administrator', '$2y$10$GGVSiGB3rQLnXbouY9JUlu2I35wesHYELh6iNlEEaRyCVIdD6lLk2', 'mateusz956@gmail.com', 'Mikołów', 'Pszczynska', '80E'),
 (2, 'Krzysio', '$2y$10$26UyY4cHAEEe7e9nSw70X.TwsuGv6xf/9ewFb3SP1CP/t7nUtNIKC', 'krzysio@gmail.com', 'Katowice', 'Pułaskiego 25', '41'),
-(3, 'patrycjaher', '$2y$10$cSQ7/idwdI/7L4x58YrLm.xdCpncQ03sv.0DwIXjuN6d0ua0aMUwy', 'patrycjaherdzina@gmail.com', 'Mikołów', 'Pszczyńska', '80E');
+(3, 'patrycjaher', '$2y$10$cSQ7/idwdI/7L4x58YrLm.xdCpncQ03sv.0DwIXjuN6d0ua0aMUwy', 'patrycjaherdzina@gmail.com', 'Mikołów', 'Pszczyńska', '80E'),
+(8, 'Admin', '$2y$10$Yypjy0QtfBhaklayihKAiODea9dqwoMTNQtDAcb6J8xyuhB/g.YRS', 'admin@teb.edu.pl', 'Katowice', 'Pszczyńska', '456'),
+(12, 'admin3', '$2y$10$en9c/qPNZYFdGMYHhJX7qukCfnqXtvP1v4.bIVi7ZSFTdtekKPHmG', 'admin3@teb.edu.pl', 'Mikołów', 'Pszczyńska', '80E');
 
 -- --------------------------------------------------------
 
@@ -514,7 +516,7 @@ ALTER TABLE `pamiec_ram`
 -- AUTO_INCREMENT for table `uzytkownicy`
 --
 ALTER TABLE `uzytkownicy`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
 -- AUTO_INCREMENT for table `zamowienia`
