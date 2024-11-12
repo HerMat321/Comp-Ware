@@ -46,46 +46,22 @@
                     <form method="POST">
                         <button name="deleteAccount">Usuń konto</button>
                     </form>
-                        
+                    
+                    <form method="POST" action="changePassword.php">
                         <button name="changePassword">Zmień hasło</button>
+                    </form>
+
+                    <form method="POST" action="changeEmail.php">
                         <button name="changeEmail">Zmień email</button>
+                    </form>
                         <button name="toBasket">Przejdź do koszyka</button>
                     
 
                     <!--Obsługa przycisków-->
                     <?php
-                        //Wylogowanie
-                        if(isset($_POST['logout']))
-                        { 
-                            header("Location: index.php");
-                            unset($_SESSION['user_login']);
-                            exit(); 
-                        }
-
-                        //Usuniecie konta
-                        if(isset($_POST['deleteAccount']))
-                        {
-                           require_once 'database.php';
-                           $query = "DELETE FROM uzytkownicy WHERE id='$_SESSION[id]'";
-                           $connection->query($query);
-
-                           function alert($message)
-                           {
-                            echo "<script>alert('$message');</script>";
-                           }
-
-                           if($connection->query($query))
-                           {
-                             unset($_SESSION['user_login']);
-                             alert("Usunałeś swoje konto!");
-                             header("Location: index.php");
-                           }
-                        }
-
-                        //Zmiana hasla
-
+                       include "../script/button_scripts.php";
                     ?>
-                    <footer><img src="../img/logo.png" alt="logo"></footer>
+                    <footer><br><img src="../img/logo.png" alt="logo"><br><br></footer>
                 </div>
             </div>
         </article>
