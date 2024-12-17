@@ -48,13 +48,13 @@
                         <br>
                         <input type="email" placeholder="Wprowadź nowy adres email" name="newEmail">
                         <br>
-                        <button type="submit">Zmień Email</button>
+                        <button type="submit" name="changeEmail">Zmień Email</button>
                         <br>
                     </form>
 
                     <!--Skrypt zmiany adresu email-->
                     <?php
-                       
+                       include "../script/change_emailScript.php";
                     ?>
                     <footer><img src="../img/logo.png" alt="logo"></footer>
                     <br>

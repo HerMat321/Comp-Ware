@@ -11,9 +11,15 @@
         <!--Panel-->
         <section>
             <div class="panel">
-                <input type="search" id="search" placeholder="Czego szukasz?"><button id="search">Wyszukaj</button>
+                <form method="POST">
+                    <input type="search" id="search" placeholder="Czego szukasz?" name="information"><button id="search" name="searchInformation">Wyszukaj</button>
+                </form>
+
+                <?php
+                    include "../script/search_script.php";
+                ?>
                 
-                <div class="insidePanel">
+                <div class="insidePanel" style="margin-left: 30%">
                     <a href="#"><img src="../img/basket.png" alt="basket"></a>
                     <img src="../img/user.png" alt="user">
                     <div style="display: inline-block">

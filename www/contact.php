@@ -49,7 +49,16 @@
                         <p>Aby ułatwić kontakt, udostępniamy formularz kontaktowy. Wypełnij poniższe pole, a my postaramy się odpowiedzieć jak najszybciej.</p>
 
                         <form method="POST">
-                            <textarea id="message" cols="100" rows="15"></textarea>
+                            <label for="contact_email">Podaj swój e-mail</label>
+                            <br>
+                            <input type="email" id="contact_email" placeholder="Podaj swój e-mail" required>
+                            <br>
+                            <label for="contact_phone">Podaj swój numer telefonu</label>
+                            <br>
+                            <input type="text" id="contact_phone" placeholder="Podaj swój numer telefonu" maxlength="9" required>
+                            <br>
+                            <br>
+                            <textarea id="message" cols="70" rows="15" placeholder="W czym możemy pomóc?"></textarea>
                             <br>
                             <button type="submit">Wyślij</button>
                         </form>

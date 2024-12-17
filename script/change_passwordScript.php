@@ -1,5 +1,5 @@
 <?php
-    if (isset($_POST['newPassword']))
+    if(isset($_POST['newPassword']))
     {
         //Założenie udanej walidacji
         $flag_ok = true;
@@ -35,7 +35,8 @@
         if($connection->query($query))
         {
             alert("Hasło zostało zmienione!");
-            header("Location: my_account.php");
+            //header("Location: index.php");
+            echo "<script> location.replace(\"my_account.php\")</script>";
         }
 
     }
