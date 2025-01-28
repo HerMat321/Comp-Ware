@@ -20,7 +20,7 @@
                 ?>
                 
                 <div class="insidePanel" style="margin-left: 30%">
-                    <a href="#"><img src="../img/basket.png" alt="basket"></a>
+                    <a href="basket.php"><img src="../img/basket.png" alt="basket"></a>
                     <img src="../img/user.png" alt="user">
                     <div style="display: inline-block">
                         <b><a href="login.php">Zaloguj się</a>

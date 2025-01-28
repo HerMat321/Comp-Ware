@@ -1,3 +1,8 @@
+<?php
+    session_start();
+    include '../script/if_!userLogin.php';
+?>
+
 <!DOCTYPE php>
 <php lang="pl">
 
@@ -31,6 +36,10 @@
                     <img src="../img/basket2.png" alt="basket">
                     </header>
                     <h2>Zobacz co jest w Twoim koszyku!</h2>
+                    <!--Obszar testowy!-->
+                    <?php
+                        include "../script/computersFromDB.php"; //skrypt do zmiany na skrypt wyswietlajacy tabele dodanych produktow z bazy danych
+                    ?>
                     <footer><img src="../img/logo.png" alt="logo"></footer>
                 </div>
             </div>

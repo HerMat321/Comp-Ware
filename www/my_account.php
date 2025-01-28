@@ -54,8 +54,10 @@
                     <form method="POST" action="changeEmail.php">
                         <button name="changeEmail">Zmień email</button>
                     </form>
+
+                    <form method="POST" action="basket.php">
                         <button name="toBasket">Przejdź do koszyka</button>
-                    
+                    </form>
 
                     <!--Obsługa przycisków-->
                     <?php
